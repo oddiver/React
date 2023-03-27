@@ -3,4 +3,7 @@
   background-color: dimgray;
 }
 
-
+.content img {
+  width: 1700px;
+  height: 450px;
+}
