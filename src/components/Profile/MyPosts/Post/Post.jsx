@@ -6,13 +6,10 @@ const Post = (props) => {
   return (
     <div className={s.item}>
       <img src='https://pbs.twimg.com/media/EYVxlOSXsAExOpX.jpg' />
-      {props.message}
-      <div>
+      {props.message} <br />
       {props.like_counts}
-      </div>
-      <div>
-        {props.dislike_counts}
-      </div>
+      {props.dislike_counts}
+
     </div>)
 }
 
