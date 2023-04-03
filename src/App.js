@@ -16,7 +16,7 @@ const App = () => {
                 <Navbar/>
                 <div className='app-wrapper-content'>
                     <Routes>
-                        <Route path='/dialogs' element={<Dialogs/>}/>
+                        <Route path='/dialogs/*' element={<Dialogs/>}/>
                         <Route path='/profile' element={<Profile/>}/>
                         <Route path='/news' element={<text/>}/>
                         <Route path='/music' element={<text/>}/>
