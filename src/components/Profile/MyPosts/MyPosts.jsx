@@ -10,7 +10,7 @@ const MyPosts = () => {
         {id:3, message: 'Dislike post', dislikesCount: '5 dislikes'}
     ]
     let postselements = posts.map( p => <Post message={p.message} likesCount={p.likesCount} />)
-     
+
     return (
         <div className={s.postsBlock}>
             <h3>My posts</h3>
